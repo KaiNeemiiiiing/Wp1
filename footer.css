@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+.social-media-bar {
+  background-color: black;
+  color: #8495A3;
+  text-align: center;
+  padding: 1px 0 10px 0;
+}
+
+.social-media-icons li {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.social-media-icons h1,
+.social-media-subscribe h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.9em;
+  line-height: 17px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-style: italic;
+  font-weight: 600;
+  padding: 15px;
+}
+
+.social-media-icons li {
+  display: inline-block;
+  margin: 5px;
+}
+
+.social-media-icons a {
+  display:table-cell;
+  vertical-align: middle;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  background-color: #5B7285;
+  border-radius: 50px; 
+}
+
+.social-media-icons a:hover {
+  background-color: #EA623D;
+}
+
+i {
+  color: #FFFFFF;
+}
+
+
+.social-media-subscribe form input[type="email"] {
+  background-color:white;
+  padding: 10px;
+  border: 2px solid #8495A3;
+  border-radius: 3px;
+  color: black;
+  font-size: 1em;
+  line-height: 17px;
+  margin-bottom: 15px;
+}
+
+input::placeholder {
+  color: #8495A3;
+  font-size: 0.8em;
+  line-height: 17px;
+}
+
+input.button-form {
+  background-color: #EA623D;
+  color: #FFFFFF;
+  padding: 10px 16px;
+  line-height: 17px;
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  border: 2px solid #EA623D;
+  border-radius: 3px;
+  margin: 0 0 0 13px;
+  cursor: pointer;
+}
+
+input.button-form:hover {
+  color: #000000
+}
+
+
+.social-media-icons h1,
+.social-media-icons ul,
+.social-media-subscribe h1,
+.social-media-subscribe ul {
+  margin: 5px;
+}
+
+@media only screen  and (min-width : 380px) {
+  
+  .social-media-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px 0 20px 0;
+  }
+  
+
+  .social-media-icons {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .social-media-icons h1 {
+    padding: 20px;
+  }
+ 
+  
+  .social-media-subscribe {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 20px 0 0px;
+  }
+  
+  .social-media-subscribe h1 {
+    text-align:left;
+    width: 25%;
+    padding: 0;
+  }
+    .text-center {
+    text-align: center;
+    }
+    
+    .footer{
+	margin-top: 0;
+	background: #000;
+	line-height: 24px;
+	padding: 15px 0;	color: #fff;
+}
+}
